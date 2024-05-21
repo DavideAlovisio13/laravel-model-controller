@@ -9,6 +9,15 @@ $fa-font-path: "../webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
-h1 {
-    color: $text-color;
+#all-movies {
+    .container {
+        background-color: aqua;
+        
+
+        .card {
+            width: 300px;
+            margin: 10px;
+            background-color: red;
+        }
+    }
 }
