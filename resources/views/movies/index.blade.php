@@ -15,7 +15,7 @@
                 <p class="card-text"><strong>Language</strong>: {{ $movie->language }}</p>
                 <p class="card-text"><strong>Date:</strong> {{ $movie->date }}</p>
                 <p class="card-text"><strong>Vote:</strong> {{ $movie->vote }}</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="{{ route('movies.show', $movie->id) }}" class="btn btn-primary">Details</a>
             </div>
         </div>
         @endforeach

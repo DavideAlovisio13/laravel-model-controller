@@ -39,3 +39,19 @@ $fa-font-path: "../webfonts" !default;
         }
     }
 }
+
+#movie {
+    background-image: url('../img/bg-movie.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .container {
+        background-color: transparent;
+        padding: 20px;
+
+        .card {
+            width: 600px;
+            box-shadow: 10px 10px 5px 0px $shadow-color;
+        }
+    }
+}
