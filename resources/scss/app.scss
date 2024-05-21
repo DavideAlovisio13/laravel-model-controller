@@ -13,12 +13,14 @@ $fa-font-path: "../webfonts" !default;
     background-image: url('../img/bg-movies.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: -600px 0px;
 
     .container {
         background-color: transparent;
         padding: 20px;
 
+        h1 {
+            color: $text-movies;
+        }
 
         .card {
             width: 300px;
@@ -54,4 +56,51 @@ $fa-font-path: "../webfonts" !default;
             box-shadow: 10px 10px 5px 0px $shadow-color;
         }
     }
+}
+
+#all-books {
+    background-image: url('../img/books-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h1 {
+        color: $text-books;
+    }
+
+    .container {
+        background-color: transparent;
+        padding: 20px;
+
+
+        .card {
+            width: 300px;
+            background-color: #7BD983;
+            border: none;
+            box-shadow: 10px 10px 5px 0px $shadow-color;
+
+            img {
+                width: 100%;
+                height: 400px;
+            }
+
+            .card-title {
+                font-size: 1.5rem;
+                font-weight: bolder;
+                color: $text-color;
+            }
+        }
+    }
+}
+
+#book {
+    background-image: url('../img/book-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .container {
+        background-color: transparent;
+        padding: 20px;
+        color: $text-book;
+    }
+
 }
